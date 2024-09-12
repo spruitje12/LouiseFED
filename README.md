@@ -37,6 +37,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+ 
+ https://www.heinz.com/nl-NL
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
@@ -89,7 +91,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  In het begin moest ik even inkomen. Vorig jaar heb ik vooral met classes gewerkt. Ik vond het dus lastig om met first-of-child etc te werken. nu ben ik al best een eindje. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -100,6 +102,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+1. Hoe haal ik de witruimte weg tussen de video/foto en de eerste rode section.
+2. hoe moet ik de tweede pagina stijlen, mag dat wel met een class?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen

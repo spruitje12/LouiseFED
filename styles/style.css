@@ -28,4 +28,115 @@
 /****************/
 
 /* jouw code */
+*{
+	margin: 0;
+}
+
+body{
+	max-width: 414px;
+}
+
+nav{
+background-color: #A61B34;
+padding: 0.8em;
+}
+
+nav img{
+	width: 3em;
+	display: flex;
+	position: relative;
+	left: 5em;
+}
+
+video{
+	width: 100%;
+}
+
+h2{
+	font-family: Heinz;
+	font-size: 3em;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: white ;
+}
+
+h3{
+	font-family: Introregular;
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+div{
+	display: flex;
+	overflow-x: scroll;
+}
+
+section:first-of-type{
+	background-color: #A6192E;
+}
+
+section:first-of-type article img{
+	width: 15em;
+	border-radius: 0.5em;
+	margin-left: 1em;
+}
+
+section:nth-of-type(2){
+	background-color: #436C22;
+}
+
+section:nth-of-type(2) img{
+	width: 100%;
+}
+
+section:nth-of-type(3){
+	background-color: #FFB81D;
+}
+
+section:nth-of-type(3) img{
+	width: 100%;
+}
+
+
+section:nth-of-type(4){
+	background-color: #A6192E;
+}
+
+section:nth-of-type(4) img{
+	width: 100%;
+}
+
+footer:first-of-type section:first-of-type{
+	background-color: white;
+}
+
+footer:first-of-type h3{
+	color: black;
+}
+
+footer a{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
+
+main img{
+	width: 100%;
+}
+
+
+@font-face {
+	font-family:"Heinz" ;
+	src: url("https://cdn.fonts.net/kit/335655b0-0dd3-11ed-9831-02c6998740a0/HeinzLabelW05Regular/HeinzLabelW05Regular_normal_normal.woff2");
+}
+
+@font-face {
+	font-family:"Introregular" ;
+	src: url(https://cdn.fonts.net/kit/335655b0-0dd3-11ed-9831-02c6998740a0/Intro/IntroRegular_normal_normal.woff2);
+}
+ 
 
