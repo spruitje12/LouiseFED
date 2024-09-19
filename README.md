@@ -41,14 +41,44 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  https://www.heinz.com/nl-NL
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  hier de naam van de pagina 
+
+  HOMEPAGINA
+
+ <img src="readme-images/ss1" width="375px" alt="filmpje van de homepagina">
+
+ <img src="readme-images/ss2" width="375px" alt="slider van sauzen">
+
+ <img src="readme-images/ss3" width="375px" alt="vrouw die een hamburger eet en tomaten">
+
+ <img src="readme-images/ss4" width="375px" alt="groen vlak met tekst">
+
+ <img src="readme-images/ss5" width="375px" alt="geel vlak met hamburger animatie">
+
+<img src="readme-images/ss6" width="375px" alt="rood vlak met ketchup flessen">
+
+<img src="readme-images/ss7" width="375px" alt="footer van website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
-</details>
+
+RECEPTEM
+
+   <img src="readme-images/tweedepagina3" width="375px" alt="foto van recepten met eten">
+  
+  <img src="readme-images/tweedepagina" width="375px" alt="foto met eten">
+
+   <img src="readme-images/tweedepaginafooter" width="375px" alt="foto van recepten met eten">
+
+   <img src="readme-images/tweedepagina4" width="375px" alt="foto van recepten met eten">
+   
+
+   <img src="readme-images/tweedepagina2" width="375px" alt="foto met  recepten en eten">
+
+  
+  
+  
+  </details>
 
 
 
@@ -60,6 +90,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Screenreader test twix:
+Heinz heeft bij een knop als je er op staat zegt de screenreader druk op control en Option om de knop te gebruiken, maar het zegt niet wat de knop doet.
+
+Bij de foto’s van de verschillende sauzen, krijg je te horen wat het is en dat als je de link opent je in een nieuwe pagina komt. 
+
+Bij elke link word er wel aangeven hoe je op de link moet klikken
+
+
 </details>
 
 
@@ -70,10 +108,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownschetsdetail.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -108,9 +146,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Maak van de footer een ul en li, nu heb je losse h3's. 
+  - Door display block aan de video en image te gevem zal de wit ruimte verdwijnen.
+  - Je bent al erg ver met je website.
   - ...
 
 </details>
