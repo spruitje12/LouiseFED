@@ -6,6 +6,10 @@
 }
 
 
+*{
+	margin: 0;
+}
+
 
 
 
@@ -28,9 +32,6 @@
 /****************/
 
 /* jouw code */
-*{
-	margin: 0;
-}
 
 body{
 	max-width: 414px;
@@ -38,31 +39,26 @@ body{
 
 nav{
 background-color: #A61B34;
-padding: 0.8em;
+display: flex;
+justify-content: space-between;
+padding-bottom: 4em;
 }
 
-nav img{
-	width: 3em;
-	display: flex;
-	position: relative;
-	left: 5em;
-}
-
-/* button{
-	background-color: transparent;
-	border: none;
-}
-
-button img{
-	height: 5em;
-	position: absolute;
-	left: 19em;
-	top: 37em;
-} */
 
 video{
 	width: 100%;
 	display: block;
+	object-fit: cover;
+	height: 45em;
+}
+
+h1{
+	font-family: Heinz;
+	font-size: 3em;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: white ;
 }
 
 h2{
@@ -74,7 +70,7 @@ h2{
 	color: white ;
 }
 
-h3{
+p{
 	font-family: Introregular;
 	font-size: 1em;
 	color: white;
@@ -83,10 +79,68 @@ h3{
 	margin-right: 1em;
 }
 
-main img{
-	width: 100%;
-	display: block;
-}
+
+nav div:first-of-type {
+	width: 40px;
+	height: 40px;
+	background-color: #8B2F33;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+  }
+
+nav div:nth-of-type(2){
+	width: 40px;
+	height: 40px;
+	background-color: #8B2F33;
+	border-radius: 50%;
+	position: absolute;
+	right: 60px;
+	top: 10px;
+  }
+
+nav div:nth-of-type(3){
+	width: 40px;
+	height: 40px;
+	background-color: #8B2F33;
+	border-radius: 50%;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+  }
+ 
+  footer svg:first-of-type{
+	background-color: #FBF9F0 ;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	padding: 1em;
+  }
+
+  footer svg:nth-of-type(2){
+	background-color: #FBF9F0 ;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	padding: 1em;
+  }
+
+  footer svg:nth-of-type(3){
+	background-color: #FBF9F0 ;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	padding: 1em;
+  }
+
+  footer svg:nth-of-type(4){
+	background-color: #FBF9F0 ;
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	padding: 1em;
+  }
 
 /*********************/
 /* Section 1 styling */
@@ -115,24 +169,46 @@ section:first-of-type div:nth-of-type(2){
 
 section:first-of-type div:nth-of-type(2) img:nth-of-type(3){
 	width: 100%;
-	transform: scale(1.8) translateY(-50px) translateX(5px);
+	transform: scale(1.8) translateY(-45px) translateX(5px);
 }
 
 section:first-of-type div:nth-of-type(2) img:first-of-type{
 	width: 100%;
-	transform: scale(1.8) translateY(220px) translateX(5px);
+	transform: scale(1.8) translateY(230px) translateX(5px);
 	margin-top: -15em;
 }
 
 section:first-of-type div:nth-of-type(2) img:nth-of-type(2){
 	width: 100%;
-	transform: scale(1.8) translateY(80px) translateX(5px);
+	transform: scale(1.8) translateY(90px) translateX(5px);
 }
 
 div::-webkit-scrollbar{
 	display: none;
 }
 
+section:first-of-type svg:first-of-type{
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	left: 20em;
+	top: 65em;
+	transform: rotate(90deg);
+}
+
+
+section:first-of-type svg:nth-of-type(2){
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	left: 2em;
+	top: 65em;
+	transform: rotate(270deg);
+}
 
 /*********************/
 /* Section 2 styling */
@@ -172,7 +248,7 @@ section:nth-of-type(2) a{
 /* Section 3 styling */
 /*********************/
 
-section:nth-of-type(3) h3{
+section:nth-of-type(3) p{
 	color: #493004;
 }
 
@@ -207,6 +283,13 @@ section:nth-of-type(3) a{
 	position: absolute;
 	left: 6em;
 	bottom: -5em;
+}
+
+section:nth-of-type(3) img:nth-of-type(2){
+	width: 20em;
+	position: relative;
+	left: 6em;
+	top: 1em;
 }
 
 
@@ -252,18 +335,19 @@ footer:first-of-type section:first-of-type{
 	background-color: white;
 }
 
-footer:first-of-type h3{
-	color: black;
-}
-
 footer a{
 	text-decoration: none;
 	color: black;
 	font-family: IntroSemiBold;
+
 }
 
 footer ul{
 	list-style:none;
+}
+
+footer ul li{
+	padding-bottom: 2em;
 }
 
 
@@ -292,3 +376,234 @@ footer ul{
 	src: url(https://cdn.fonts.net/kit/335655b0-0dd3-11ed-9831-02c6998740a0/Intro/IntroBold_normal_normal.woff2);
 }
 
+
+/*********************/
+/* pagina 2 styling */
+/*********************/
+
+.roodvlak{
+	padding-bottom: 7em;
+}
+
+.h1anders{
+	font-family: "IntroSemiBold";
+	font-size: 1em;
+	padding-top: 3em;
+	padding-bottom: 0.5em;
+}
+
+.knoprecept{
+	position: absolute;
+	text-decoration: none;
+	color: #A6192E;
+	background-color: white;
+	border-radius: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-family: "IntroBold";
+	margin-top: 0.5em;
+	left: 7em;
+}
+
+.filteren{
+	background-color: #FBF9F0;
+	padding-bottom: 2em;
+}
+
+.h2anders{
+	font-family: "IntroSemiBold";
+	color: black;
+	font-size:1.2em;
+}
+
+h3{
+	font-family: "heinz";
+	display: flex;
+	justify-content: center;
+	font-size: 90%;
+	margin-bottom: 20px;
+}
+
+h4{
+	font-family: "IntroSemiBold";
+	display: flex;
+	justify-content: center;
+	font-size: 80%;
+}
+
+.styling{
+	font-family: "Introregular";
+	display: flex;
+	list-style: none;
+	padding: 0;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 80%;
+}
+
+.styling li{
+	margin-right: 0.5em;
+}
+
+.foto{
+	display: block;
+	width: 100%;
+}
+
+.receptenpagina section:nth-of-type(n+2){
+	background-color: white;
+}
+
+.receptenpagina section:nth-of-type(3){
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 1px;
+}
+
+.receptenpagina section:nth-of-type(3) article:first-of-type img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(2) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(3) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(4) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(5) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(6) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(7) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(8) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(9) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(10) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(11) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.receptenpagina section:nth-of-type(3) article:nth-of-type(12) img{
+	object-fit: cover;
+	width: 190px;
+	height: 250px;
+	margin: 0.5em;
+}
+
+.h3tekst{
+	font-family: Introregular;
+	font-size: 0.9em;
+	color: black;
+	margin-left: 1em;
+	margin-right: 1em;
+	justify-content: space-between;
+	padding-top: 2em;
+}
+
+nav svg:first-of-type{
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	width: 2.5em;
+	padding: 0.5em;
+	color: white;
+	border-radius: 50%;
+	background-color: #8B2F33;
+}
+
+nav svg:nth-of-type(2){
+	height: 3em;
+	position: absolute;
+	left: 6em;
+	top: 0.3em;
+	color: white;
+	width: 4em;
+}
+
+nav svg:nth-of-type(3){
+	width: 2.5em;
+	height: 2.5em;
+	position: absolute;
+	left: 20em;
+	top: 0.5em;
+	border-radius: 50%;
+	padding: 0.5em;
+	color: white;
+	background-color: #8B2F33;
+}
+
+nav svg:nth-of-type(4){
+	width: 2.5em;
+	height: 2.5em;
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+	padding: 0.5em;
+	border-radius: 50%;
+	color: white;
+	background-color: #8B2F33;
+}
+
+section:nth-of-type(2) svg{
+	background-color: #FBF9F0 ;
+	position: absolute;
+	left: 7.5em;
+	top: 1.8em;
+}
