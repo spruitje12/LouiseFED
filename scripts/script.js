@@ -18,9 +18,8 @@ sluitIcoon.onclick = sluitMenu;
 
 function sluitMenu(){
     let deNav = document.querySelector("nav");
+    let deBody = document.querySelector("body");
     deNav.classList.remove("toonMenu");
-    deBody.classList.remove("noScroll")
+    deBody.classList.remove("noScroll");
 }
-
-
 
