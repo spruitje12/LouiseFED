@@ -45,7 +45,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   HOMEPAGINA
 
- <img src="readme-images/ss1" width="375px" alt="filmpje van de homepagina">
+ <img src="readme-images/ss1.png" width="375px" alt="filmpje van de homepagina">
 
  <img src="readme-images/ss2" width="375px" alt="slider van sauzen">
 
@@ -163,7 +163,7 @@ Bij elke link word er wel aangeven hoe je op de link moet klikken
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ ik vond het lastif om de tweede pagina te stijlen. Door dat alle styling mee kwam van de vorige pagina. hierdoor ben ik er wel achter gekomen hoe belangrijk het is om specifieke html te schrijven. ik had bijvoorbeeld wit ruimtes, waarvan ik dacht dat er niks zat. het bleek dan dat de styling mee was gekomen en die specifieker was dan mijn nieuwe styling, waardoor hij overruled werd. Door hulp te vragen is het mij gelukt dit op te lossen.
 
   
 
@@ -200,6 +200,22 @@ Bij elke link word er wel aangeven hoe je op de link moet klikken
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  1. Hij leest alles automatisch voor. 
+2. Bij de afbeeldingen leest hij de alt tekst voor.
+3. Bij de links die lijken op buttons geeft ie aan dat het een link is, daarna noemt hij op wat er staat als tekst en dan hoe je de link moet openen. 
+4. Bij de Foster lijst geeft hij aan hoeveel onderdelen eer in de lijstjes staan. Geeft alleen niet aan op welk onderdeel je bent.
+5. Bij de search icon in de nat heeft hij een lap tekst die niks te maken heeft met het icoon. 
+
+aria-label="$t(MicrocopyMessages.searchTitle) heb ik veranderd naar  aria-label="Search icon". nu leest hij netjes search icon op.
+
+
+6. Bij de eerste zegt hij ook alleen afbeelding. Bij het hamburger menu noemt hij wel op dat het een hamburger menu icon is. 
+
+1. Hij benoemt dat er een audio speelt op De website.
+2. Hij leest netjes alles voor van het recept onderdeel.
+3. Bij de button op de tweede pagina geeft ie aan dat het een knop is.
+4. Video is niet ondertitelt
+
 </details>
 
 
@@ -212,7 +228,9 @@ Bij elke link word er wel aangeven hoe je op de link moet klikken
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Ik vond het lastig om met het hamburger menu te beginnen. Door niet eerst de uitleg te lezen snapte ik er niks van. Ik ben toen met de slides er naast gaan proberen het hamburger menu te maken. Uiteindelijk was het vrij simpel en is het mij gelukt om het menu te maken. 
+
+ wat ik ook lastig vind is de play/pauze button maken voor het filmpje. hier ben ik nog  mee beizg en is nog niet gelukt. 
 
 
   ### Agenda voor meeting
