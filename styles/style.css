@@ -214,9 +214,7 @@ nav svg:nth-of-type(5){
   }
 
 
-body.noScroll{
-	overflow-y: hidden;
-  }
+
 
   /****************/
 /* Header styling */
@@ -654,5 +652,7 @@ button{
 
  
 
-
+body.noScroll{
+	overflow-y: hidden;
+  }
 
