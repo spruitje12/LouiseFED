@@ -47,33 +47,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
  <img src="readme-images/ss1.png" width="375px" alt="filmpje van de homepagina">
 
- <img src="readme-images/ss2" width="375px" alt="slider van sauzen">
+ <img src="readme-images/ss2.png" width="375px" alt="slider van sauzen">
 
- <img src="readme-images/ss3" width="375px" alt="vrouw die een hamburger eet en tomaten">
+ <img src="readme-images/ss3.png" width="375px" alt="vrouw die een hamburger eet en tomaten">
 
- <img src="readme-images/ss4" width="375px" alt="groen vlak met tekst">
+ <img src="readme-images/ss4.png" width="375px" alt="groen vlak met tekst">
 
- <img src="readme-images/ss5" width="375px" alt="geel vlak met hamburger animatie">
+ <img src="readme-images/ss5.png" width="375px" alt="geel vlak met hamburger animatie">
 
-<img src="readme-images/ss6" width="375px" alt="rood vlak met ketchup flessen">
+<img src="readme-images/ss6.png" width="375px" alt="rood vlak met ketchup flessen">
 
-<img src="readme-images/ss7" width="375px" alt="footer van website">
+<img src="readme-images/ss7.png" width="375px" alt="footer van website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
 
-RECEPTEM
+RECEPTEN
 
-   <img src="readme-images/tweedepagina3" width="375px" alt="foto van recepten met eten">
+   <img src="readme-images/tweedepagina3.png" width="375px" alt="foto van recepten met eten">
   
-  <img src="readme-images/tweedepagina" width="375px" alt="foto met eten">
+  <img src="readme-images/tweedepagina.png" width="375px" alt="foto met eten">
 
-   <img src="readme-images/tweedepaginafooter" width="375px" alt="foto van recepten met eten">
+   <img src="readme-images/tweedepaginafooter.png" width="375px" alt="foto van recepten met eten">
 
-   <img src="readme-images/tweedepagina4" width="375px" alt="foto van recepten met eten">
+   <img src="readme-images/tweedepagina4.png" width="375px" alt="foto van recepten met eten">
    
 
-   <img src="readme-images/tweedepagina2" width="375px" alt="foto met  recepten en eten">
+   <img src="readme-images/tweedepagina2.png" width="375px" alt="foto met  recepten en eten">
 
   
   
