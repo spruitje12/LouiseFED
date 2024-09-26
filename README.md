@@ -246,9 +246,9 @@ aria-label="$t(MicrocopyMessages.searchTitle) heb ik veranderd naar  aria-label=
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - 
-  - punt 2
-  - nog een punt
+  - video doet het niet op github
+  - styling werkt niet omdat ik display none en grid heb, maar hoe los ik dit op
+  - filter optie gaat niet over de hele pagina. hoe kan ik dit voor elkaar krijgen
   - ...
 
 </details>

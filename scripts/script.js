@@ -23,3 +23,22 @@ function sluitMenu(){
     deBody.classList.remove("noScroll");
 }
 
+
+let buttonMeer = document.querySelector("article > button");
+
+buttonMeer.onclick = openMeer;
+
+function openMeer(){
+   let meerLaden = document.querySelector(".meerLaden");
+    document.querySelector(".meerLaden").style.display = "grid";
+    console.log("klik")
+}
+
+let filterOpen = document.querySelector(".filteren");
+
+filterOpen.onclick = openFilterMenu;
+
+function openFilterMenu(){
+    let deFilters = document.querySelector(".filterMenu");
+    deFilters.classList.add("filterInBeeld");
+}

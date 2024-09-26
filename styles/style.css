@@ -35,7 +35,7 @@
 
 
 body{
-	max-width: 414px;
+	max-width: 25.9em;
 }
 
 header{
@@ -76,7 +76,7 @@ h3{
 	display: flex;
 	justify-content: center;
 	font-size: 90%;
-	margin-bottom: 15px;
+	margin-bottom: 0.9em;
 }
 
 h4{
@@ -103,7 +103,7 @@ nav{
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	translate: -100%;
+	transform:translate(-100%);
 	background-color: white;
 	z-index: 1;
 }
@@ -117,6 +117,8 @@ nav svg:first-of-type{
 	color: black;
 	border-radius: 50%;
 	background-color:#FBF9F0;
+	stroke:currentColor;
+	fill:currentColor;
 }
 
 
@@ -169,7 +171,7 @@ nav ul li a{
 }
 
 nav.toonMenu{
-	translate: 0%;
+	transform:translate(0%);
 	transition: 0.3s;
 }
 
@@ -218,6 +220,21 @@ body.noScroll{
 	overflow-y: hidden;
   }
 
+  .filterMenu{
+	width: 25.9em;
+	height: 56em;
+	position: fixed;
+	transform: translateX(-100%);
+  }
+
+  .filterMenu ul{
+	list-style: none;
+  }
+
+  .filterInBeeld{
+	transform: translateX(0%);
+  }
+
   /****************/
 /* Header styling */
 /****************/
@@ -236,7 +253,8 @@ header > svg:first-of-type{
 	color: white;
 	border-radius: 50%;
 	background-color: #8B2F33;
-	fill: #fff;
+	stroke:currentColor;
+	fill:currentColor;
 }
 
  header > svg:nth-of-type(2){
@@ -300,18 +318,18 @@ section:first-of-type div:nth-of-type(2){
 
 section:first-of-type div:nth-of-type(2) img:nth-of-type(3){
 	width: 100%;
-	transform: scale(1.8) translateY(-45px) translateX(5px);
+	transform: scale(1.8) translateY(-2.8em) translateX(0.3em);
 }
 
 section:first-of-type div:nth-of-type(2) img:first-of-type{
 	width: 100%;
-	transform: scale(1.8) translateY(230px) translateX(5px);
+	transform: scale(1.8) translateY(14.4em) translateX(0.3em);
 	margin-top: -15em;
 }
 
 section:first-of-type div:nth-of-type(2) img:nth-of-type(2){
 	width: 100%;
-	transform: scale(1.8) translateY(90px) translateX(5px);
+	transform: scale(1.8) translateY(5.6em) translateX(0.3em);
 }
 
 div::-webkit-scrollbar{
@@ -319,7 +337,7 @@ div::-webkit-scrollbar{
 }
 
 section:first-of-type svg:first-of-type{
-	border-radius: 50%;
+	border-radius: 3.1em;
 	width: 4em;
 	height: 4em;
 	background-color: rgba(255, 255, 255, 0.7);
@@ -332,7 +350,7 @@ section:first-of-type svg:first-of-type{
 
 
 section:first-of-type svg:nth-of-type(2){
-	border-radius: 50%;
+	border-radius: 3.1em;
 	width: 4em;
 	height: 4em;
 	background-color: rgba(255, 255, 255, 0.7);
@@ -424,6 +442,19 @@ section:nth-of-type(3) img:nth-of-type(2){
 	top: 1em;
 }
 
+section:nth-of-type(3) article:first-of-type img:first-of-type{
+	animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll{
+	0%{
+		transform: translateX(0);
+	} 
+	100% {
+		transform: translate(-50%);
+	}
+}
+
 
 /*********************/
 /* Section 4 styling */
@@ -485,7 +516,7 @@ footer ul li{
 
 footer svg:first-of-type{
 	background-color: #FBF9F0 ;
-	border-radius: 50%;
+	border-radius: 3.1em;
 	width: 4em;
 	height: 4em;
 	padding: 1em;
@@ -493,7 +524,7 @@ footer svg:first-of-type{
 
   footer svg{
 	background-color: #FBF9F0 ;
-	border-radius: 50%;
+	border-radius: 3.1em;
 	width: 4em;
 	height: 4em;
 	padding: 1em;
@@ -603,13 +634,13 @@ footer svg:first-of-type{
 .receptenpagina section:nth-of-type(3){
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	gap: 1px;
+	gap: 0.06em;
 }
 
 .receptenpagina section:nth-of-type(3) img{
 	object-fit: cover;
-	width: 190px;
-	height: 250px;
+	width: 11.9em;
+	height: 15.6em;
 	margin: 0.5em;
 }
 
@@ -649,10 +680,26 @@ button{
 	font-family: "IntroBold";
 	left: 10em;
 	width: 10em;
+	top: 240em;
 }
 
+.meerLaden{
+	display:none;
+}
 
- 
+.meerLaden article{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 0.06em;
+}
+
+.meerLaden article img{
+	object-fit: cover;
+	width: 11.9em;
+	height: 15.6em;
+	margin: 0.5em;
+}
+
 
 
 
