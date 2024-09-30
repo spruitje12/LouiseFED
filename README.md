@@ -163,7 +163,7 @@ Bij elke link word er wel aangeven hoe je op de link moet klikken
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
- ik vond het lastif om de tweede pagina te stijlen. Door dat alle styling mee kwam van de vorige pagina. hierdoor ben ik er wel achter gekomen hoe belangrijk het is om specifieke html te schrijven. ik had bijvoorbeeld wit ruimtes, waarvan ik dacht dat er niks zat. het bleek dan dat de styling mee was gekomen en die specifieker was dan mijn nieuwe styling, waardoor hij overruled werd. Door hulp te vragen is het mij gelukt dit op te lossen.
+ ik vond het lastig om de tweede pagina te stijlen. Door dat alle styling mee kwam van de vorige pagina. hierdoor ben ik er wel achter gekomen hoe belangrijk het is om specifieke html te schrijven. ik had bijvoorbeeld wit ruimtes, waarvan ik dacht dat er niks zat. het bleek dan dat de styling mee was gekomen en die specifieker was dan mijn nieuwe styling, waardoor hij overruled werd. Door hulp te vragen is het mij gelukt dit op te lossen.
 
   
 
@@ -181,10 +181,8 @@ Bij elke link word er wel aangeven hoe je op de link moet klikken
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - wit ruimte op de tweede pagina die ik niet weg krijg.
+  
 
 </details>
 
@@ -249,7 +247,7 @@ aria-label="$t(MicrocopyMessages.searchTitle) heb ik veranderd naar  aria-label=
   - video doet het niet op github
   - styling werkt niet omdat ik display none en grid heb, maar hoe los ik dit op
   - filter optie gaat niet over de hele pagina. hoe kan ik dit voor elkaar krijgen
-  - ...
+  - is mijn video surfaceplanes
 
 </details>
 
@@ -291,7 +289,7 @@ aria-label="$t(MicrocopyMessages.searchTitle) heb ik veranderd naar  aria-label=
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. https://www.heinz.com/nl-NL  <!-- allee content is gestolen van deze website -->
   2. bron 2
   3. ...
 

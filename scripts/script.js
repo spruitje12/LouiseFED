@@ -24,21 +24,33 @@ function sluitMenu(){
 }
 
 
-let buttonMeer = document.querySelector("article > button");
+let buttonMeer = document.querySelector(".pagina2");
 
-buttonMeer.onclick = openMeer;
+ if (buttonMeer){
+    buttonMeer.onclick = openMeer;
+ }
 
 function openMeer(){
    let meerLaden = document.querySelector(".meerLaden");
+   if (meerLaden){
     document.querySelector(".meerLaden").style.display = "grid";
-    console.log("klik")
+    buttonMeer.style.display = 'none'
+   }
 }
 
-let filterOpen = document.querySelector(".filteren");
+let R = document.querySelector(':root');
 
-filterOpen.onclick = openFilterMenu;
-
-function openFilterMenu(){
-    let deFilters = document.querySelector(".filterMenu");
-    deFilters.classList.add("filterInBeeld");
+function getR(){
+    let rS = getComputedStyle(R);
+    alert("The value of --font-p is:" + rS.getPropertyValue('--font-p'));
 }
+
+function set(){
+    R.style.setProperty('--font-p', '1.5em');
+}
+
+let biggerFont = document.querySelector("button:nth-of-type(2)");
+biggerFont.onclick = set;
+
+/* Biggerfont code met behulp van chatgpt */
+
