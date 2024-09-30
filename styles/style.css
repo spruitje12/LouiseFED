@@ -64,6 +64,20 @@
 	to{ transform: scaleX(1.1);}
 }
 
+@keyframes pulse {
+	0%{
+		transform: rotate(180deg) scale(1.2);
+	}
+
+	50%{
+		transform: rotate(180deg) scale(1.5);
+	}
+
+	100%{
+		transform: rotate(180deg) scale(1.2);
+	}
+}
+
 /*********************/
 /* Fonts */
 /*********************/
@@ -127,6 +141,24 @@ video{
 	object-fit: cover;
 	height: 45em;
 }
+
+.arrow{
+	border-radius: 2em;
+	background-color: var(--red);
+	color: var(--white);
+	transform: rotate(180deg) scale(1.8);
+	position: absolute;
+	top: 45em;
+	left: 12em;
+	animation: pulse 1.5s infinite;
+}
+
+.target-section {
+    scroll-snap-align: start; /* Snapt naar het begin van elke sectie */
+    height: 100vh; /* Elke sectie neemt de volledige viewport hoogte */
+    scroll-snap-type: y mandatory;
+}
+
 
 h1{
 	font-family: Heinz;

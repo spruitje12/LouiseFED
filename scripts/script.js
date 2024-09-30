@@ -54,3 +54,12 @@ biggerFont.onclick = set;
 
 /* Biggerfont code met behulp van chatgpt */
 
+
+function scrollToNextSection() {
+    let nextSection = document.querySelector(".target-section");
+    nextSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+let scrollSnap = document.querySelector(".arrow")
+
+scrollSnap.onclick = scrollToNextSection;
