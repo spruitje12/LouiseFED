@@ -57,9 +57,13 @@ biggerFont.onclick = set;
 
 function scrollToNextSection() {
     let nextSection = document.querySelector(".target-section");
+   if(nextSection){
     nextSection.scrollIntoView({ behavior: 'smooth' });
+   }
 }
 
 let scrollSnap = document.querySelector(".arrow")
 
-scrollSnap.onclick = scrollToNextSection;
+if (scrollSnap){
+     scrollSnap.onclick = scrollToNextSection;
+}

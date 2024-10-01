@@ -52,17 +52,27 @@
 		transform: translateX(-100%);
 	}
 }
+/* https://codepen.io/iskadar/pen/zLQjLe */
+
+
 
 @media (prefers-reduced-motion){
 .animatieSlider{
 	animation: dissolve 4s linear infinite both;
 }
 }
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion */
+
+
 
 @keyframes grow-progress{
 	from{ transform: scaleX(0);}
 	to{ transform: scaleX(1.1);}
 }
+
+/* https://scroll-driven-animations.style/ */
+
+
 
 @keyframes pulse {
 	0%{
@@ -77,6 +87,10 @@
 		transform: rotate(180deg) scale(1.2);
 	}
 }
+
+/* https://codepen.io/saigowthamr/pen/PowdZqy */
+
+
 
 /*********************/
 /* Fonts */
@@ -154,8 +168,8 @@ video{
 }
 
 .target-section {
-    scroll-snap-align: start; /* Snapt naar het begin van elke sectie */
-    height: 100vh; /* Elke sectie neemt de volledige viewport hoogte */
+    scroll-snap-align: start; 
+    height: 100vh; 
     scroll-snap-type: y mandatory;
 }
 

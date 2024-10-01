@@ -134,12 +134,6 @@ Bij elke link word er wel aangeven hoe je op de link moet klikken
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
 1. Hoe haal ik de witruimte weg tussen de video/foto en de eerste rode section.
 2. hoe moet ik de tweede pagina stijlen, mag dat wel met een class?
 
@@ -171,17 +165,13 @@ Bij elke link word er wel aangeven hoe je op de link moet klikken
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
 
+  - wit ruimte op de tweede pagina die ik niet weg krijg.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - wit ruimte op de tweede pagina die ik niet weg krijg.
+ Kijk even naar de inspector, er worden styling meegneomen vanag de eerste pagina. 
   
 
 </details>
@@ -234,20 +224,17 @@ aria-label="$t(MicrocopyMessages.searchTitle) heb ik veranderd naar  aria-label=
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
   - video doet het niet op github
   - styling werkt niet omdat ik display none en grid heb, maar hoe los ik dit op
   - filter optie gaat niet over de hele pagina. hoe kan ik dit voor elkaar krijgen
   - is mijn video surfaceplanes
+
+
+  ### Verslag van meeting
+  hier na afloop snel de uitkomsten van de meeting vastleggen
+  
+  Voortgangsgesprek 3 Feedback: Je bent al best ver met je pagina's! Je video op GitHub pages laad niet, maar wij hebben dit opgezocht en GitHub laad dit niet. De beweegende tekst heeft heel veel wit ruimte, bekijk even die codepen link want daar gaat het wel goed. Je kan nog even kijken naar custom properties. Kijk nog even goed naar welke surface plane dingen je gaat doen (bijvoorbeeld animaties of scroll animaties etc.). Bekijk nog even: https://codepen.io/iskadar/pen/zLQjLe , https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties , https://scroll-driven-animations.style/ , CSS-Only Carousel | CSS-Tricks
+
 
 </details>
 
@@ -261,19 +248,23 @@ aria-label="$t(MicrocopyMessages.searchTitle) heb ik veranderd naar  aria-label=
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/navbar.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/pulse.png" width="375px" alt="uitomst opdracht 2">
+  <img src="readme-images/probar.png" width="375px" alt="uitomst opdracht 3">
+  <img src="readme-images/meerbutton.png" width="375px" alt="uitomst opdracht 4">
+  <img src="readme-images/slidergeel.png" width="375px" alt="uitomst opdracht 5">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb geleerd met keyframes te werken. Ook ben ik meer beizg geweest met javascript. Daarnaast heb ik veel geleerd over  :nth-of-type
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/keyframes.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het ss niet gelukt op de animatie van de slider vloeiend naast elkaar te laten lopen. Ook is het niet gelukt om de carrousel werkende butttons te geven. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/slidergeel.png" width="375px" alt="jammer">
 </details>
 
 
@@ -289,8 +280,10 @@ aria-label="$t(MicrocopyMessages.searchTitle) heb ik veranderd naar  aria-label=
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. https://www.heinz.com/nl-NL  <!-- allee content is gestolen van deze website -->
-  2. bron 2
-  3. ...
+  1. https://www.heinz.com/nl-NL  <!-- alle content is gestolen van deze website -->
+  2. https://scroll-driven-animations.style/ 
+  3. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+  4. https://codepen.io/saigowthamr/pen/PowdZqy
+  5. https://codepen.io/iskadar/pen/zLQjLe
 
 </details>
